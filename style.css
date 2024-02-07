@@ -9,13 +9,25 @@ body {
     background-color: #EAEDF0;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
-    
+
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.sidebar{
+    position: relative;
+    text-align: center;
 }
 
 img{
     max-height: 755px;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .rightside{
@@ -25,18 +37,24 @@ img{
     justify-content: space-evenly;
 }
 
-.header {
+.header,
+.content,
+.footer{
     padding: 30px;
+    padding-left: 40px;
     max-width: 530px;
+}
+
+.header {
+
 }
 
 .content{
     background-color: white;
-    padding: 30px;
 }
 
 .footer{
-    padding: 30px;
+
 }
 
 .form-row {
