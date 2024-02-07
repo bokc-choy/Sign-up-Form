@@ -17,6 +17,7 @@ body {
 p{
     font-size: 16px;
     font-weight: bold;
+    color: black;
 }
 
 .sidebar{
@@ -96,13 +97,22 @@ form{
 }
 
 label{
-    
+    color: black;
 }
 
 input{
     width: 200px;
     height: 30px;
 }
+
+.valid{
+    border-color: green;
+}
+
+.invalid{
+    border-color: red;
+}
+
 
 button{
     background-color: #596D48;
